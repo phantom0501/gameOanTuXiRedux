@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "fontOanTuXi";
+  src: url("../assets/fonts/Pony.ttf");
+}
+
+.gameOanTuXi {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-image: url("../assets/img/bgGameOanTuXi.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.theThink {
+  position: relative;
+  display: flex;
+  height: 200px;
+  width: 200px;
+  background: #fff;
+  margin: 0 auto;
+  border: 10px solid #45d994;
+}
+
+.fontsGame {
+  font-family: fontOanTuXi;
+  color: #45d994;
+}
+
+.theThink__img {
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  position: absolute;
+  left: 25%;
+  top: 20%;
+}
+
+.result_game {
+  height: 100%;
+  width: 100%;
+  transform: translateY(10%);
+}
+
+.list_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list_img-item {
+  margin: 0 8px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.speech-bubble {
+  position: relative;
+  background: #45d994;
+  border-radius: 0.4em;
+}
+
+.speech-bubble:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border: 35px solid transparent;
+  border-top-color: #45d994;
+  border-bottom: 0;
+  border-left: 0;
+  margin-left: -17.5px;
+  margin-bottom: -35px;
+}
